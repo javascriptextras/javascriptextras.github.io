@@ -1,10 +1,10 @@
 import { ver } from "/jsx/main.js";
 import { decimalAdd, decimalSub, decimalMul, decimalDiv } from "/jsx/numbers.js";
 import { replaceHTML, replaceATTRIB } from "/jsx/dom.js";
-console.log(ver());
-console.log(decimalAdd(1, 0.4));
-console.log(decimalSub(0.3, 0.2));
-console.log(decimalMul(0.3, 0.4));
-console.log(decimalDiv(0.3, 0.2));
+console.log("JSX Version " + ver());
+alert(decimalAdd(1, 0.4));
+alert(decimalSub(0.3, 0.2));
+alert(decimalMul(0.3, 0.4));
+alert(decimalDiv(0.3, 0.2));
 replaceHTML("tst", "Yeah!");
 replaceATTRIB("tst", "style", "color: white");
