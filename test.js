@@ -1,0 +1,10 @@
+import { ver } from "https://javascriptextras.github.io/JSX/jsx/main.js";
+import { decimalAdd, decimalSub, decimalMul, decimalDiv } from "https://javascriptextras.github.io/JSX/jsx/numbers.js";
+import { replaceHTML, replaceATTRIB } from "https://javascriptextras.github.io/JSX/jsx/dom.js";
+console.log(ver());
+console.log(decimalAdd(1, 0.4));
+console.log(decimalSub(0.3, 0.2));
+console.log(decimalMul(0.3, 0.4));
+console.log(decimalDiv(0.3, 0.2));
+replaceHTML("tst", "Yeah!");
+replaceATTRIB("tst", "style", "color: white");
