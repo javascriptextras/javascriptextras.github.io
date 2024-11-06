@@ -2,11 +2,16 @@
 Now this is where JSX's website is.
 It's simple. Just text, a download link, that's it.
 
+# The module itself
+Ok, you know what the websie is. Now JSX.
+
+## Some code I forgot about
+
+
 ## Troubleshooting
+I'm so tired of debugging, I'm ready to bug out. Anyways I'm not a professional programmer, but I'm learning.
 ### Lost your module?
-Here, you will need a good memory so remember this for ***all of your code***, please remember to add the `type="module"` to your script tags (`<script>`).
-I forgot and spent in total about 8hours debugging! Only for me to realize that...
-it should be like:
+Oh no! You've lost your module! It's a tragedy! A catastrophe! Don't worry, though. There's a simple solution. Just add the `type="module"` attribute to your script tag. It's like a magic spell that will bring your module back to life. Here it is:
 ```HTML
 <!DOCTYPE html>
 <html>
@@ -20,14 +25,14 @@ it should be like:
 </html>
 ```
 
-### Got an issue with your relatives?
-Also, for those relative file paths, just add a `/` to the start, so like this:
+### Got an issue with your relative paths?
+Also, for those relative file paths, just add a "/" to the start, so like this:
+
 ```JS
 import { ver } from "/main.js"
-## Your code shall continue into the woods...
-## Oooh, spooky... GHOST!
-## Not giving you anymore code.
-## Why?
-## BECAUSE I DON'T WANT TO STEAL IT ALL!!
-## fine... ):
 ```
+
+It's like adding a magic wand to your code, guiding it to the right path. Remember, without that slash, your code is lost, wandering aimlessly in the vast expanse of your file system.
+However, you can't ask your code a question, honesty.
+
+Now you're out of the woods, hopefully.
