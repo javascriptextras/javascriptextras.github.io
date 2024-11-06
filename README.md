@@ -21,7 +21,7 @@ it should be like:
 ```
 
 ### Got an issue with your relatives?
-Also, for those relative file pathsk, just add a `/` to the start, so like this:
+Also, for those relative file paths, just add a `/` to the start, so like this:
 ```JS
 import { ver } from "/main.js"
 ## Your code shall continue into the woods...
