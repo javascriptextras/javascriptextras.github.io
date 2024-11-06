@@ -14,4 +14,4 @@ alert(decimalDiv(0.3, 0.2));
 replaceHTML("tst", "Yeah!");
 replaceATTRIB("tst", "style", "color: red");
 addHTML("body", '<p>Yeah</p>');
-createButton("Show Code", "buttonClick();");
+createButton("Show Code", "buttonClick();", "button", "body");
