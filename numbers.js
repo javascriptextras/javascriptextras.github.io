@@ -1,5 +1,3 @@
-type="module"
-
 export function decimalAdd(des1, des2) {
   return (des1 * 10 + des2 * 10) / 10;
 }
