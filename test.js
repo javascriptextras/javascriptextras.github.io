@@ -7,4 +7,4 @@ alert(decimalSub(0.3, 0.2));
 alert(decimalMul(0.3, 0.4));
 alert(decimalDiv(0.3, 0.2));
 replaceHTML("tst", "Yeah!");
-replaceATTRIB("tst", "style", "color: white");
+replaceATTRIB("tst", "style", "color: red");
