@@ -3,10 +3,10 @@ Now this is where JSX's website is.
 It's simple. Just text, a download link, that's it.
 
 ## Troubleshooting
-### Forgot the module?
-Now please remember to add the `type="module"` to your script tags (`<script>`).
-I forgot and spent in total about 8hours debugging! Only for me to realize that.
-It should be like:
+### Lost your module?
+Here, you will need a good memory so remember this for ***all of your code***, please remember to add the `type="module"` to your script tags (`<script>`).
+I forgot and spent in total about 8hours debugging! Only for me to realize that...
+it should be like:
 ```HTML
 <!DOCTYPE html>
 <html>
@@ -20,10 +20,14 @@ It should be like:
 </html>
 ```
 
-### Relative issue?
+### Got an issue with your relatives?
 Also, for those relative file pathsk, just add a `/` to the start, so like this:
 ```JS
 import { ver } from "/main.js"
-## Your code CONTUINUES into the WOODS...
+## Your code shall continue into the woods...
 ## Oooh, spooky... GHOST!
+## Not giving you anymore code.
+## Why?
+## BECAUSE I DON'T WANT TO STEAL IT ALL!!
+## fine... ):
 ```
