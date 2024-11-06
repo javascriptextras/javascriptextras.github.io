@@ -26,7 +26,7 @@ Oh no! You've lost your module! It's a tragedy! A catastrophe! Don't worry, thou
 ```
 
 ### Got an issue with your relative paths?
-Also, for those relative file paths, just add a "/" to the start, so like this:
+Oh no!! My paths are broken! What will we do? Ok, ok calm down... just remember to add a little mini `/` (to head to the Website root!) in front of the paths (Tip! It can also be this little midget for one folder back: "../")
 
 ```JS
 import { ver } from "/main.js"
