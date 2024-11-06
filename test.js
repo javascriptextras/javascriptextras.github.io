@@ -1,6 +1,6 @@
-import { ver } from "/jsx/main.js";
-import { decimalAdd, decimalSub, decimalMul, decimalDiv } from "/jsx/numbers.js";
-import { replaceHTML, replaceATTRIB } from "/jsx/dom.js";
+import { ver } from "/js/jsx/main.js";
+import { decimalAdd, decimalSub, decimalMul, decimalDiv } from "/js/jsx/numbers.js";
+import { replaceHTML, replaceATTRIB } from "/js/jsx/dom.js";
 console.log("JSX Version " + ver());
 alert(decimalAdd(1, 0.4));
 alert(decimalSub(0.3, 0.2));
