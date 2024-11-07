@@ -17,7 +17,7 @@ function getRandomInt(max) {
 
 function buttonClick() {
   addHTML("body", "<p>Don't belive me? Press CTRL + SHIFT + I and see the code!</p>");
-  addHTML("body", "<p>And also another way to look at the code is at <a href=\"https://github.com/javascriptextras/javascriptextras/blob/main/jsx/\">Github</a></p>");
+  addHTML("body", "<p>And also another way to look at the code is at <a href=\"https://github.com/javascriptextras/javascriptextras/blob/main/jsx/\">Github - Module</a> or <a href=\"https://github.com/javascriptextras/javascriptextras.github.io\">Github - Website</a></p>");
   // Show the button again (assuming show is defined in animate.js)
   show("button", "shown!");
 }
