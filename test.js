@@ -16,10 +16,12 @@ function getRandomInt(max) {
 }
 
 function buttonClick() {
-  addHTML("body", "<p>You may look at the code: <a href=\"https://github.com/javascriptextras/javascriptextras/blob/main/jsx/\">Github</a>");
+  addHTML("body", "<p>Don't belive me? Press CTRL + SHIFT + I and see the code!</p>");
+  addHTML("body", "<p>And also another way to look at the code is at <a href=\"https://github.com/javascriptextras/javascriptextras/blob/main/jsx/\">Github</a></p>");
   // Show the button again (assuming show is defined in animate.js)
   show("button", "shown!");
 }
 
 addHTML("body", '<p>Yeah</p>');
-createButton("Show Code", "buttonClick()", "button", "body");
+
+const button = createButton("This was made with JSX!", buttonClick, "myButton", "body");
