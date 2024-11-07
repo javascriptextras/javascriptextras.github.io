@@ -1,5 +1,6 @@
 function buttonClick() {
   addHTML("body", "<p>You may look at the code: <a href=\"https://github.com/javascriptextras/javascriptextras/blob/main/jsx/\">Github</a>");
+  createButton("Show Code", "buttonClick()", "button", "body");
 }
 
 import { ver } from "https://javascriptextras.github.io/javascriptextras/jsx/main.js";
@@ -14,4 +15,4 @@ alert(decimalDiv(0.3, 0.2));
 replaceHTML("tst", "Yeah!");
 replaceATTRIB("tst", "style", "color: red");
 addHTML("body", '<p>Yeah</p>');
-createButton("Show Code", "buttonClick();", "button", "body");
+createButton("Show Code", "buttonClick()", "button", "body");
