@@ -8,7 +8,7 @@ alert(decimalAdd(1, 0.4));
 alert(decimalSub(0.3, 0.2));
 alert(decimalMul(0.3, 0.4));
 alert(decimalDiv(0.3, 0.2));
-replaceHTML("tst", "Yeah!");
+replaceHTML("tst", "JSX has been loaded! I should be red now!");
 replaceATTRIB("tst", "style", "color: red");
 
 function getRandomInt(max) {
@@ -18,9 +18,10 @@ function getRandomInt(max) {
 function buttonClick() {
   addHTML("body", "<p>Don't belive me? Press CTRL + SHIFT + I and see the code!</p>");
   addHTML("body", "<p>And also another way to look at the code is at <a href=\"https://github.com/javascriptextras/javascriptextras/blob/main/jsx/\">Github - Module</a> or <a href=\"https://github.com/javascriptextras/javascriptextras.github.io\">Github - Website</a></p>");
-  const button = createButton("This was made with JSX!", buttonClick, "myButton", "body");
+  const buttonId = "JSXbutton-" + getRandomInt(99999);
+  createButton("This was made with JSX!", buttonClick, buttonId, "body");
 }
 
-addHTML("body", '<p>Yeah</p>');
+addHTML("body", '<p>I was added with JSX, and so is the button down here! \\/ \\/ \\/</p>');
 
-const button = createButton("This was made with JSX!", buttonClick, "myButton", "body");
+const button = createButton("Click me, from JSX!", buttonClick, "JSXbutton", "body");
