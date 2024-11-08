@@ -160,7 +160,7 @@ h4 {
   color: var(--text-950);
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 700;
+  font-weight: 600;
   font-style: normal;
 }
 
@@ -168,7 +168,7 @@ h5 {
   color: var(--text-900);
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 700;
+  font-weight: 500;
   font-style: normal;
 }
 
@@ -176,6 +176,6 @@ p {
   color: var(--text-900);
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 700;
+  font-weight: 400;
   font-style: normal;
 }
