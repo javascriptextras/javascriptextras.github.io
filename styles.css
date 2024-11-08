@@ -133,7 +133,7 @@ body {
 }
 
 h1 {
-  color: var(--text-900);
+  color: var(--text-950);
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-weight: 800;
@@ -141,7 +141,7 @@ h1 {
 }
 
 h2 {
-  color: var(--text-700);
+  color: var(--text-950);
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-weight: 700;
@@ -149,7 +149,7 @@ h2 {
 }
 
 h3 {
-  color: var(--text-700);
+  color: var(--text-950);
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-weight: 700;
@@ -157,7 +157,7 @@ h3 {
 }
 
 h4 {
-  color: var(--text-600);
+  color: var(--text-950);
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-weight: 700;
@@ -165,7 +165,7 @@ h4 {
 }
 
 h5 {
-  color: var(--text-600);
+  color: var(--text-900);
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-weight: 700;
@@ -173,7 +173,7 @@ h5 {
 }
 
 p {
-  color: var(--text-600);
+  color: var(--text-900);
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-weight: 700;
