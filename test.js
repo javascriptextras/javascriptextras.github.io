@@ -8,8 +8,8 @@ alert(decimalAdd(1, 0.4));
 alert(decimalSub(0.3, 0.2));
 alert(decimalMul(0.3, 0.4));
 alert(decimalDiv(0.3, 0.2));
-replaceHTML("tst", "JSX has been loaded! I should be red now!");
-replaceATTRIB("tst", "style", "color: red");
+replaceHTML("tst", "JSX has been loaded! I should be bright blue now!");
+replaceATTRIB("tst", "style", "color: var(--text-700)");
 
 function getRandomInt(max) {
   return Math.floor(Math.random() * max);
