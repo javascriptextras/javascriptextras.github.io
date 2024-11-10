@@ -4,12 +4,12 @@ import { replaceHTML, replaceATTRIB, addHTML } from "https://javascriptextras.gi
 import { createButton, createLabel, createDiv } from "https://javascriptextras.github.io/javascriptextras/jsx/ui.js";
 import { move, rotate, hide, show, fadeIn, fadeOut, slideIn, slideOut } from "https://javascriptextras.github.io/javascriptextras/jsx/animate.js";
 console.log("JSX Version " + ver());
+replaceHTML("tst", "JSX has been loaded! I should be bright blue now! Using JSX " + parseFloat(ver()));
+replaceATTRIB("tst", "style", "color: var(--text-800)");
 alert(decimalAdd(1, 0.4));
 alert(decimalSub(0.3, 0.2));
 alert(decimalMul(0.3, 0.4));
 alert(decimalDiv(0.3, 0.2));
-replaceHTML("tst", "JSX has been loaded! I should be bright blue now!");
-replaceATTRIB("tst", "style", "color: var(--text-700)");
 
 function getRandomInt(max) {
   return Math.floor(Math.random() * max);
